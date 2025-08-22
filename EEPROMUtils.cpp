@@ -1,3 +1,23 @@
+/*
+   Project   : Smart Battery Monitor (ESP8266 V1.0)
+   File      : EEPROMUtils.cpp
+   Author    : Akshit Singh (github.com/akshit-singhh)
+   License   : MIT License
+
+   Description:
+   Utility functions for interacting with external EEPROM (AT24C32 on DS3231).
+   Provides methods to persist and retrieve configuration and credentials.
+
+   Functions:
+   - writeFloat() / readFloat()
+   - writeInt() / readInt()
+   - writeString() / readString()
+
+   Notes:
+   - Values stored at predefined addresses (see AppServer.cpp)
+   - Used for WiFi credentials, calibration values, SOC, thresholds, etc.
+*/
+
 #include "EEPROMUtils.h"
 #include <Wire.h>
 
