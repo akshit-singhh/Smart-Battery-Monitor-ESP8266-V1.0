@@ -1,3 +1,29 @@
+/*
+   Project   : Smart Battery Monitor (ESP8266 V1.0)
+   File      : AppServer.cpp
+   Author    : Akshit Singh (github.com/akshit-singhh)
+   License   : MIT License
+
+   Description:
+   Implements the embedded HTTP server using ESP8266WebServer.
+   Provides REST API endpoints and AP-mode setup pages.
+
+   Features:
+   - /live_data   → Returns real-time telemetry (voltage, current, SOC, power, RSSI, mode, IP)
+   - /serial_log  → Returns recent logs (uptime + RTC timestamp)
+   - /settings    → GET for reading, POST for updating (values persisted in EEPROM)
+   - /wifi_config → HTML form + JSON API for provisioning WiFi credentials
+   - /ap_qr, /ap_details → AP setup pages (QR code, network details)
+   - /sta_ip      → Returns station IP or NOT_CONNECTED
+   - /reboot      → Reboots ESP
+   - AP/STA route setup functions
+
+   Notes:
+   - Uses DS3231 RTC for timestamps
+   - Logs all actions with uptime + RTC to circular buffer
+   - WiFi credentials persisted in AT24C32 EEPROM
+*/
+
 #include "AppServer.h"
 #include "EEPROMUtils.h"
 #include <ArduinoJson.h>
