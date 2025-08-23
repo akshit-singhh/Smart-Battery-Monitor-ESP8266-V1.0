@@ -12,6 +12,8 @@ It exposes a RESTful API for integration with a companion **Android app**, and i
 Additional features include QR code–based WiFi provisioning, on-device calibration menus, statistics tracking (Wh, cycles, uptime), and AP/STA dual WiFi modes.
 Designed for expandability, with future upgrades planned for ESP32 hardware, MQTT integration (Home Assistant, Node-RED), and an advanced web dashboard with charts and controls.
 
+For further info visit to- https://smartbatterymonitor.blogspot.com/2025/08/smart-battery-monitor-esp8266-diy.html
+
 ---
 
 ## ✨ Features
@@ -48,6 +50,15 @@ Designed for expandability, with future upgrades planned for ESP32 hardware, MQT
 ---
 
 ## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6fd3c69e-330f-4085-b94f-b30eb7be8935" alt="PCB_PCB_Battery_level_indicator_2025-08-23 (2)" width="600" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b31cbb1c-5796-4507-a02d-184c19c7479d" alt="pcb" width="400" />
+  <img src="https://github.com/user-attachments/assets/ea9f43d1-ca94-4546-8747-10a35f249eb8" alt="Screenshot 2025-08-23 172144" width="500" />
+</p>
 
 
 ## 📟 OLED Menu System
@@ -252,3 +263,4 @@ Made with ❤ by Akshit Singh
 
 ## ⭐ Support
 If you found this project useful, don’t forget to ⭐ the repository!
+
