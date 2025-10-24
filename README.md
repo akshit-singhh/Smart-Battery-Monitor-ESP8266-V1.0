@@ -14,6 +14,8 @@ Designed for expandability, with future upgrades planned for ESP32 hardware, MQT
 
 For further info visit to- https://smartbatterymonitor.blogspot.com/2025/08/smart-battery-monitor-esp8266-diy.html
 
+You can find the app repository here: [Smart Battery Monitor Android App](https://github.com/akshit-singhh/Smart-Battery-Monitor-App)
+
 ---
 
 ## ✨ Features
@@ -263,4 +265,5 @@ Made with ❤ by Akshit Singh
 
 ## ⭐ Support
 If you found this project useful, don’t forget to ⭐ the repository!
+
 
